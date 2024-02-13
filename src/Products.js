@@ -127,7 +127,7 @@ const Products = ({datas}) => {
             </div>
         <div className='buttons'>
     <button id='order' onClick={()=>order(item.SELLprize,item.productName,item._id)}>order</button>
-    <button id='cart' onClick={addtocart}>Add to Cart</button>
+    <button id='cart' onClick={()=>addtocart()}>Add to Cart</button>
     </div>
         </div>
         
