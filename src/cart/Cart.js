@@ -57,7 +57,7 @@ const decrement=(itemId)=>{
   return (
     <div id='cart_page'  style={quantity.loading?{display:'flex',justifyContent:'center',alignItems:'center',height:'100vh'}:{display:'flex',flexWrap:'wrap'}}>
       {quantity.loading?
-      <div style={{height:'50%',width:'50%',display:'flex',justifyContent:'center',alignItems:'center',alignSelf:'center',position:'absolute',zIndex:2}}>
+      <div style={{height:'50%',width:'50%',display:'flex',justifyContent:'center',alignItems:'center',alignSelf:'center',position:'absolute'}}>
       <div className="loader"></div>
       </div>
       :<></>
