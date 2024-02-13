@@ -49,7 +49,7 @@ const Signup = () => {
   return (
       <section>
     <div id="loginBox">
-    {loader || !loader?
+    {loader ?
       <div style={{height:'50%',width:'50%',display:'flex',justifyContent:'center',alignItems:'center',alignSelf:'center',position:'absolute',zIndex:2,gap:20}}>
       <div className="loader"></div><p  style={{fontSize:20,fontWeight:900}}>SignUp....</p>
       </div>
