@@ -74,8 +74,8 @@ const Products = ({datas}) => {
         <img src={image.first?item.img[0].url:item.img[1].url} key={`Image_product${index}`}className='childimage' alt={`first_img_index${index}`}/>
         </div>
         <div style={{paddingLeft:'2rem',paddingTop:10}}>
-        <img src={item.img[0].url} onClick={()=>setimage({first:true,second:false})} key={`Image_product_adjust${index}`} alt={`first_img_index${index}`} style={{height:100,width:100,borderRadius:5,padding:10,border:image.first?'1px solid black':'none'}}/>
-        <img src={item.img[1].url} onClick={()=>setimage({first:false,second:true})} key={`second_img_adjus${index}`} alt={`second_img_index${index}`} style={{height:100,width:100,borderRadius:5,padding:10,border:!image.first?'1px solid black':'none'}}/>
+        <img src={item.img[0].url} onClick={()=>setimage({first:true,second:false,newloader:false})} key={`Image_product_adjust${index}`} alt={`first_img_index${index}`} style={{height:100,width:100,borderRadius:5,padding:10,border:image.first?'1px solid black':'none'}}/>
+        <img src={item.img[1].url} onClick={()=>setimage({first:false,second:true,newloader:false})} key={`second_img_adjus${index}`} alt={`second_img_index${index}`} style={{height:100,width:100,borderRadius:5,padding:10,border:!image.first?'1px solid black':'none'}}/>
             </div>
        
         <div id='difference_prize'>
