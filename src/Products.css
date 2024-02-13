@@ -1,0 +1,173 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+#product_page{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 40px;
+    width: 100%;
+    height: 100vh;
+    margin-top: 60px;
+}
+.size_button{
+    color: black;
+    font-weight: 900;
+    width: 100px;
+    background-color: antiquewhite;
+}
+#size_buttons{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.cover{
+    position: relative;
+    width: 90%;
+    height: 50%;
+}
+#sizes{
+    padding-top: 20px;
+    font-size: 1.5rem;
+    display: grid;
+}
+.scroll_images{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    overflow: auto;
+    position: relative;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+.child{
+    min-width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+    cursor: pointer;
+}
+.childimage{
+    width: 250px;
+    height: 100%;
+}
+.icons_preview{
+   
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+#productname{
+    font-size: 2rem;
+}
+
+#difference_prize,#details_box{
+    padding: 1rem;
+}
+.buttons{
+    width: 90%;
+display: flex;
+ justify-content: space-evenly;
+ align-items: center;
+    padding-left: 10%;
+    padding-bottom: 10px;
+}
+.buttons button{
+    width: 40%;
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.5);
+}
+#order{
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    font-weight: 900;
+}
+.checker {
+    width: 50px;
+    aspect-ratio: 1;
+    display: grid;
+    border-radius: 50%;
+    background:
+      linear-gradient(0deg ,rgb(0 0 0/50%) 30%,#0000 0 70%,rgb(0 0 0/100%) 0) 50%/8% 100%,
+      linear-gradient(90deg,rgb(0 0 0/25%) 30%,#0000 0 70%,rgb(0 0 0/75% ) 0) 50%/100% 8%;
+    background-repeat: no-repeat;
+    animation: l23 1s infinite steps(12);
+  }
+  .checker::before,
+  .checker::after {
+     content: "";
+     grid-area: 1/1;
+     border-radius: 50%;
+     background: inherit;
+     opacity: 0.915;
+     transform: rotate(30deg);
+  }
+  .checker::after {
+     opacity: 0.83;
+     transform: rotate(60deg);
+  }
+  @keyframes l23 {
+    100% {transform: rotate(1turn)}
+  }
+@media (max-width:440px){
+    #product_page{
+        margin-top: 50px;
+        width: 100%;
+        height: 100vh;
+        overflow-x: hidden;
+    }
+    #size_buttons{
+        width: 90%;
+    }
+    #size_buttons button{
+        width: 90px;
+    }
+    .icons_preview{
+        position: absolute;
+        top: 40%;
+        width: 100%;
+    }
+    .container{
+        width: 100%;
+        height: 100%;
+    }
+    .righticon,.lefticon{
+        width: 40px;
+    }
+    .scroll_images{
+        width: 100%;
+    }
+  .childimage{
+    height: 70%
+  }
+    h4{
+        font-size: 1.3rem;
+        width: 70%;
+    }
+    
+    body{
+        width: 100%;
+    }
+    #details_box{
+        width: 90%;
+    }
+    #prize #MRPprize,#offer{
+        font-size: 1rem;
+        font-weight: 700;
+    }
+}
+@media screen and (min-width:441px) and (max-width:550px){
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        flex-direction: column;
+    } 
+    #size_buttons{
+        width: 90%;
+    }
+}
