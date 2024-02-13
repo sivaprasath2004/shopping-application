@@ -71,7 +71,7 @@ const decrement=(itemId)=>{
         :
         <div className='cart_paging'> 
      {Object.values(datas).map((item,index)=>(
-        <div className='cart_detail'  key={`div_tag${item.productName}`} data-aos="fade-up">
+        <div className='cart_detail' id={item._id}  key={`div_tag${item.productName}`} data-aos="fade-up">
          <img src={item.img[0].url} alt={`image_product${item.productName}`} id={`cart_img`} />
          <div className='cart_product_details'>
          <h1 id='card_product'>{item.productName.length>22?item.productName.slice(0,21)+'....':item.productName}</h1>
@@ -92,7 +92,7 @@ const decrement=(itemId)=>{
           <button id='view'>
             <img src='https://cdn-icons-png.flaticon.com/128/535/535193.png' alt={`image_alts${index}`} key={`image_alts_index${index}`}/>
             </button></Link>
-         <button id='remove' onClick={()=>remove(item)}>
+         <button id='remove' onClick={()=>remove(item._id)}>
          <img src='https://cdn-icons-png.flaticon.com/128/6861/6861362.png' alt={`image_delete_alts${index}`} key={`image_delete_alts_index${index}`}/>
           </button>      
           <button className='order_but' onClick={()=>order(item.SELLprize*quantity[index] || 0,item.productName,item._id)}>
