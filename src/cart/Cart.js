@@ -34,7 +34,7 @@ const Cart =() => {
     cart()
 },[])
 const remove=async(id)=>{ 
-    await axios.post('http://localhost:5000/cart/remove',{
+    await axios.post('https://shopping-backend-neon.vercel.app/cart/remove',{
       _id:id,
       id:localStorage.getItem("9ouenbcvgetywMhIOEJD")
     })
