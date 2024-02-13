@@ -66,7 +66,7 @@ const Products = ({datas}) => {
   return (
     <div id='product_page' data-aos="zoom-out"
     data-aos-easing="ease-out-cubic"
-    data-aos-duration="1000" >
+    data-aos-duration="1000" style={loader?{overflow:'hidden'}:{}}>
         {loader?<span id="loader" key={`loader${loader}`} style={{position:'absolute'}}></span>:<></>}
     {Object.values(Result).map((item,index)=>(
         <div className='container' key={`container_1${index}`}>
