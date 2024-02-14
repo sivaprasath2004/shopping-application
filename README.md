@@ -41,5 +41,5 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 ## Links ✅
 <ul>
-  <li><a href=""></a></li>
+  <li><a href="https://shopping-application-alpha.vercel.app/"></a></li>
 </ul>
