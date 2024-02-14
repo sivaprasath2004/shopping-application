@@ -35,7 +35,7 @@ const Payment = () => {
             amount={prize} 
             currency='INR' 
              >
-              <div style={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center',gap:'2rem'}}>
+              <div style={{display:'flex',padding:'2rem',flexDirection:'column',justifyContent:'center',alignItems:'center',gap:'2rem'}}>
               <p>This payment will be a Test mode Not money needed</p>
               <p>If you want Anything problem please contact us page builder on Github..</p>
               <h2 style={{fontSize:18,fontWeight:500}}>contact <a style={{paddingLeft:10}} href='https://github.com/sivaprasath2004'>sivaprasath2004<img style={{height
