@@ -5,7 +5,7 @@ The Shopping Application is a comprehensive e-commerce website built with ReactJ
 ## Links ✅
 
  - **<a href="https://shopping-application-iota.vercel.app/">FRONT-END ! 🚀</a>**
- - **<a href="https://vercel.com/sivas-projects-f98d9b89/shopping-backend/8D5QhmqQNLr2dqf5DT1Zn2w7P3CM">BACK-END ! 🚀</a>**
+ - **<a href="https://shopping-backend-neon.vercel.app/">BACK-END ! 🚀</a>**
    
 ## Back-End
 - **<a href="https://github.com/sivaprasath2004/shopping-backend">Back-End</a>**
