@@ -1,45 +1,90 @@
-# Getting Started with Create React App
+# Shopping Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.<br>
+The Shopping Application is a comprehensive e-commerce website built with ReactJS, offering users a seamless shopping experience. Users can browse through various categories, view products, add items to their cart, and complete purchases securely.
 
 ## Links ✅
-<ul>
-  <li><a href="https://shopping-application-alpha.vercel.app/">CLICK HERE ! 🚀</a></li>
-</ul>
+
+ - **<a href="https://shopping-application-iota.vercel.app/">FRONT-END ! 🚀</a>**
+ - **<a href="https://vercel.com/sivas-projects-f98d9b89/shopping-backend/8D5QhmqQNLr2dqf5DT1Zn2w7P3CM">BACK-END ! 🚀</a>**
+   
+## Back-End
+- **<a href="https://github.com/sivaprasath2004/shopping-backend">Back-End</a>**
+## Features
+
+- **Product Catalog:** Browse through a wide range of products organized into different categories.
+- **Product Search:** Search for specific products by name, category, or keywords.
+- **User Authentication:** Register an account or log in to an existing account to access personalized features.
+- **Shopping Cart:** Add products to the cart, update quantities, and remove items as needed.
+- **Checkout Process:** Securely complete purchases with integrated payment processing.
+- **Order History:** View past orders and track order statuses.
+
+## Technologies Used
+
+- ReactJS
+- React Router
+
+## Installation
+#### Front-End
+1. Clone the repository to your local machine:
+
+    ```bash
+    git clone https://github.com/sivaprasath2004/shopping-application.git
+    ```
+
+2. Navigate to the project directory:
+
+    ```bash
+    cd shopping-application
+    ```
+
+3. Install dependencies:
+
+    ```bash
+    npm install
+    ```
+
+4. Start the development server:
+
+    ```bash
+    npm start
+    ```
+
+5. Open your browser and visit `http://localhost:3000` to view the application.
+
+#### Back-End
+
+1. Clone the repository to your local machine:
+
+    ```bash
+    git clone https://github.com/sivaprasath2004/shopping-backend.git
+    ```
+
+2. Navigate to the project directory:
+
+    ```bash
+    cd shopping-backend
+    ```
+
+3. Install dependencies:
+
+    ```bash
+    npm install
+    ```
+
+4. Start the development server:
+
+    ```bash
+    node index.js
+    ```
+
+## Usage
+
+1. Register an account or log in to an existing account.
+2. Browse through product categories or use the search functionality to find specific items.
+3. Add desired products to the shopping cart.
+4. Review items in the cart, update quantities if necessary, and proceed to checkout.
+5. Enter shipping and payment information to complete the purchase.
+
+## Contributing
+
+Contributions are welcome! If you'd like to contribute to this project, feel free to submit pull requests or open issues for any improvements or features you'd like to see added.
